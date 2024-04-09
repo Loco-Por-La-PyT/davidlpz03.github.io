@@ -3,29 +3,82 @@ body {
     margin: 0;
     padding: 0;
 }
+.logo {
+    width: 80%;
+}
 .logo img{
-    height: 150px;
+    max-width: 80%;
+    height: auto;
+}
+.Formulario{
+    width: 90%;
+}
+.Formulario img{
+    max-width: 90%;
+    width: auto;
+}
+.cont-fichamed{
+    width: 80%;
+}
+.cont-fichamed img{
+    max-width: 80%;
+    height: auto;
+}
+.code1{
+    width: 100%;
 }
 .code1 img{
-    height: 40px;
+    max-width: 100%;
+    height: auto;
+}
+.code2{
+    width: 80%;
 }
 .code2 img{
-    height: 140px;
+    max-width: 80%;
+    height: auto;
+}
+.code3{
+    width: 80%;
 }
 .code3 img{
-    height: 400px;
+    max-width: 80%;
+    height: auto;
+}
+.code4{
+    width: 90%;
 }
 .code4 img{
-    height: 400px;
+    max-width: 90%;
+    height: auto;
+}
+.code5{
+    width: 100%;
 }
 .code5 img{
-    height: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.selecunic{
+    width: 100%;
 }
 .selecunic img{
-    height: 80px;
+    max-width: 100%;
+    height: auto;
+}
+.selecmult{
+    width: 100%;
 }
 .selecmult img{
-    height: 120px;
+    max-width: 100%;
+    width: auto;
+}
+.fecha{
+    width: 60%;
+}
+.fecha img{
+    max-width: 60%;
+    width: auto;
 }
 header {
     text-align: left;
