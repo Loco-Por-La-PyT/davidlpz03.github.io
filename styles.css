@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    height: 150px;
+}
+.code1 img{
+    height: 40px;
+}
+.code2 img{
+    height: 140px;
+}
+.code3 img{
+    height: 400px;
+}
+.code4 img{
+    height: 400px;
+}
+.code5 img{
+    height: 20px;
+}
+.selecunic img{
+    height: 80px;
+}
+.selecmult img{
+    height: 120px;
+}
+header {
+    text-align: left;
+    background-color: rgb(16, 15, 13);
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+	padding: 0;
+	display: flex;
+	background-color: rgb(16, 15, 13);
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgb(197, 193, 193);
+}
+
+nav ul li a {
+    display: block;
+	background-color: rgba(255, 255, 255, 0.878);
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 10px;
+}
+nav ul li:hover > ul {
+    display: block;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+  }
+nav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 100%;
+  }
+nav ul ul li {
+    display: block;
+  }
+nav ul ul li a {
+    padding: 10px 20px;
+    color: #333;
+  }
+nav ul ul li:hover {
+    background-color: #f0f0f0;
+  }
+main {
+    padding: 20px;
+}
+.Formulario img{
+    height: 600px;
+}
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
