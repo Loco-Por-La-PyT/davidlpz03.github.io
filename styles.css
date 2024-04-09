@@ -10,11 +10,18 @@ body {
     max-width: 80%;
     height: auto;
 }
+.resum-form{
+    width: 80%;
+}
+.resum-form img{
+    max-width: 80%;
+    height: auto;
+}
 .Formulario{
-    width: 90%;
+    height: 60%;
 }
 .Formulario img{
-    max-width: 90%;
+    max-height: 60%;
     width: auto;
 }
 .cont-fichamed{
