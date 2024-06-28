@@ -1,132 +1,114 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
-.logo {
-    width: 80%;
-}
-.logo img{
-    max-width: 80%;
-    height: auto;
-}
-.resum-form{
-    width: 80%;
-}
-.resum-form img{
-    max-width: 80%;
-    height: auto;
-}
-.Formulario{
-    width: 100%;
-    height: 100%;
-}
-.Formulario img{
-    max-width: 100%;
-    max-height: 500px;
-}
-.EjerUni{
-    width: 100%;
-    height: 100%;
-}
-.EjerUni img{
-    max-width: 100%;
-    max-height: 500px; 
-}
-.cont-fichamed{
-    width: 80%;
-}
-.cont-fichamed img{
-    max-width: 80%;
-    height: auto;
-}
-.code1{
-    width: 100%;
-}
-.code1 img{
-    max-width: 100%;
-    height: auto;
-}
-.code2{
-    width: 100%;
-}
-.code2 img{
-    max-width: 100%;
-    height: auto;
-}
-.code3{
-    width: 90%;
-}
-.code3 img{
-    max-width: 90%;
-    height: auto;
-}
-.code4{
-    width: 100%;
-}
-.code4 img{
-    max-width: 100%;
-    height: auto;
-}
-.code5{
-    width: 100%;
-}
-.code5 img{
-    max-width: 100%;
-    height: auto;
-}
-.selecunic{
-    width: 100%;
-}
-.selecunic img{
-    max-width: 100%;
-    height: auto;
-}
-.selecmult{
-    width: 100%;
-}
-.selecmult img{
-    max-width: 100%;
-    width: auto;
-}
-.fecha{
-    width: 70%;
-}
-.fecha img{
-    max-width: 70%;
-    width: auto;
-}
+
 header {
-    text-align: left;
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
+    background-image:url(background3.jpg);
+    background-size: cover;
+    background-position: 1px 350px;
     color: #ffffff;
-    padding-top: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative; /* Añadido para establecer contexto de posición */
+}
+.titulo-pagina{
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 10);
+}
+.titulo-articulo-alicia{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.Alicia1 img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.cerebro img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.cerebro i{
+    font-size: 12px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.Facebook img{
+    display: block;
+    width: 25px;  /* Ajusta el tamaño según sea necesario */
+    height: 25px; /* Ajusta el tamaño según sea necesario */
+    border: none;
+}
+.Instagram img{
+    display: block;
+    width: 25px;  /* Ajusta el tamaño según sea necesario */
+    height: 25px; /* Ajusta el tamaño según sea necesario */
+    border: none;
+}
+.Twitter img{
+    display: block;
+    width: 25px;  /* Ajusta el tamaño según sea necesario */
+    height: 25px; /* Ajusta el tamaño según sea necesario */
+    border: none;
+}
+.social-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
 }
 
+.social-item {
+    margin: 0;
+    padding: 0;
+}
+
+.social-item a {
+    display: block;
+    padding: 5px;
+}
+
+h1 {
+    margin-top: 40px; /* Ajustar según sea necesario */
+}
+.menu-horizontal{
+    background-color: #575757;
+}
 nav ul {
     list-style: none;
 	padding: 0;
+    margin: 0;
 	display: flex;
-	background-color: rgb(255, 255, 255,);
+    justify-content: center;
 }
 
 nav ul li {
     display: inline-block;
     position: relative;
-    border: 1px solid rgb(197, 193, 193);
 }
 
 nav ul li a {
     display: block;
-	background-color: rgba(255, 255, 255, 0.878);
-	text-decoration: none;
-	color: rgb(0, 0, 0);
-	padding: 10px;
+    padding: 15px 15px;
+    text-decoration: none;
+	color: #fff;
+    transition: all 0.3s ease;
 }
 nav ul li:hover > ul {
     display: block;
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
+    background-color: #575757;
   }
 nav a:hover{
     color: rgb(255, 255, 255);
@@ -135,7 +117,7 @@ nav a:hover{
 nav ul ul {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color: #000000;
     left: 0;
     top: 100%;
   }
@@ -144,24 +126,61 @@ nav ul ul li {
   }
 nav ul ul li a {
     padding: 10px 20px;
-    color: #333;
+    color: #fdfdfd;
   }
 nav ul ul li:hover {
-    background-color: #f0f0f0;
+    background-color: #000000;
   }
 main {
-    padding: 20px;
+    flex: 1;
+    padding: 50px;
+
 }
-.Formulario img{
-    height: 600px;
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
-section {
-    margin-bottom: 30px;
+
+#search-form {
+    display: flex;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+#search-input:focus {
+    border-color: #333;
+}
+
+#search-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s ease;
+}
+
+#search-form button:hover {
+    background-color: #575757;
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
     text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

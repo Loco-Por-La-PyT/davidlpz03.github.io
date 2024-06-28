@@ -2,47 +2,42 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loco por la PyT</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <a href="index.html">
-            <div class="logo">
-                <img src="LOGO.png">
-            </div>
-        </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobre_mi.html">Sobre mí</a></li>
-                <li class="submenu">
-                    <a>Proyectos</a>
-                    <ul class="submenu-content">
-                        <li><a href="Formulario ejercicio.html">Formulario</a></li>
-                        <li><a href="#">Próximamente...</a></li>
-                        <li><a href="#">Próximamente...</a></li>
-                    </ul>
-                </li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+        <ul class="social-menu">
+            <li class="social-item"><a class="Twitter" href="https://twitter.com"><img src="twitter-logo.png" alt="Twitter"></a></li>
+            <li class="social-item"><a class="Instagram" href="https://www.instagram.com/locoporlapyt/"><img src="instagram-logo.png" alt="Instagram"></a></li>
+            <li class="social-item"><a class="Facebook" href="https://facebook.com"><img src="facebook-logo.png" alt="Facebook"></a></li>
+        </ul>
+        <h1 class="titulo-pagina">Loco por la programación y tecnología</h1>
     </header>
+    <nav class="menu-horizontal">
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Noticias.html">Noticias</a></li>
+            <li><a href="Proyectos.html">Proyectos</a>
+                <ul>
+                    <li><a href="Formulario ejercicio.html">Ficha Médica</a></li>
+                    <li><a href="#">Próximamente...</a></li>
+                    <li><a href="#">Próximamente...</a></li>
+                </ul>
+            </li>
+            <li><a href="quiensoy.html">¿Quién soy?</a></li>
+        </ul>
+    </nav>
         <main>
-            <p>En esta sección podremos ver codigos de proyectos realizados de mi propia mano de diferentes lenguajes de programación y diferentes secciones de tecnología.</p>
-            <h2>Formulario "Ficha Médica" con HTML y CSS</h2>
             <section>
+                <h2>Formulario "Ficha Médica" con HTML y CSS</h2>
+                <p>En esta sección podremos ver codigos de proyectos realizados de mi propia mano de diferentes lenguajes de programación y diferentes secciones de tecnología.</p>
                 <p>
                     Empezaremos con un pequeño proyecto en donde se nos pide informatizar una ficha médica aplicando un diseño y distribución
                     de elementos libres de tal manera que en mi caso se viera así:
                 </p>
-            </section>
-            <section>
-                <p><div class="Formulario"><img src="Formulario.png"></div></p>
-            </section>
-            <section>
+                    <div class="Formulario"><img src="Formulario.png"></div>
                 <p>
                     Podemos observar como hay diferentes elementos que hacen que la ficha médica sea más práctica como elecciones de <b>selección
                     única</b> en el Grupo Sanguíneo, <b>selección múltiple</b> en problemas de salud o incluso en la formato para la <b>elección de la fecha de realización.</b><br>
